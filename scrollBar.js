@@ -1,5 +1,5 @@
 ;(function ($) {
-  // IE
+  // 支持IE，IE上面也可以修改颜色等
   $.fn.extend({
     "scrollBar": function (options) {
       var settings = {barWidth: 5, position: "x,y", wheelDis: 15,scrollbarColor:'#464e5a',sliderColor:'#1caf9a'};
